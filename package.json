@@ -1,0 +1,13 @@
+{
+  "name": "tailwind-playground",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bunx @tailwindcss/cli -i src/styles.css -o dist/styles.css --watch",
+    "build": "bunx @tailwindcss/cli -i src/styles.css -o dist/styles.css --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
